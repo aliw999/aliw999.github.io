@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Playfair+Display|Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+
+
+
+
+body{
+	min-width: 320px;
+	font-size: 16px;
+	color: #000;
+	font-family: 'Roboto', serif;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+a{
+	color: #b4ad9e;
+}
+a:hover{
+	color: #898377;
+}
+
+header .navbar-light{
+	background-color: #fff;
+}
+
+header .navbar-brand{
+	font-family: 'Inconsolata', monospace;
+	font-size: 40px;
+	color: #000;
+	text-transform: uppercase;
+}
+header .nav-item{
+	text-transform: uppercase;
+	margin-left: 30px;
+
+}
+header .nav-item a::after{
+	content: '';
+	display: block;
+	width: 100%;
+	background-color: #ccc;
+	height: 1px;
+	transform: scale(0);
+	transition: all .3s;
+}
+
+header .nav-item a:hover::after{
+	transform: scale(1);
+
+}
+.slider{
+	margin-bottom: 50px;
+}
+.centered{
+	text-align: center;
+}
+.minimize{
+	max-width: 50%;
+	height: auto;
+	margin-bottom: 50px;
+}
+.minimize70{
+	max-width: 75%;
+	height: auto;
+	margin-bottom: 50px;
+}
+.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+}
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+#lo{
+	margin-left: 50px;
+}
+p{
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.bp{
+	background-color: rgba(0,0,0,0.8);
+}
+.line { 
+    border-left: 5px solid gold; /* Параметры линии */ 
+    margin-left: 20px; /* Отступ слева */
+    padding-left: 10px; /* Расстояние от линии до текста */ 
+   }
+.finish{
+	background-color: rgba(58,62,73,0.8);
+	text-align: center;
+	max-width: 100%;
+	height: 100px;
+	padding-top: 35px;
+}
+.sflag{
+	max-width: 100%;
+	background-image: url('img/flag.jpg');
+}
+
+.ccc{
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+
+}
+.colorb{
+	background-color: gray;
+}
+.colorb:hover{
+	background-color: rgb(212,175,55);
+}
+.ott{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px){	
+}
+
+
+
+@media only screen and (max-width: 1199px){	
+}
+
+
+@media only screen and (max-width: 992px){	
+}
+
+
+@media only screen and (max-width: 991px){	
+}
+
+
+@media only screen and (max-width: 768px){	
+}
+
+
+@media only screen and (max-width: 767px){	
+}
+
+
+@media only screen and (max-width: 480px){	
+}
