@@ -7,5 +7,6 @@ menu.onclick = function clickMenu() {
 		topNavigationItem.className = "topNav"
 	}
 }
-
-// controls
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})
