@@ -1,0 +1,200 @@
+.black{
+	background-color: #000;
+	max-width: 100%;
+	height: 200px;
+}
+
+
+.main_welcome {
+	background: black;
+	text-align: center;
+	padding-top: 15rem;
+	padding-left: 5rem;
+	padding-right: 5rem;
+	margin-bottom: 5rem;
+	padding-bottom: 12rem;
+}
+
+.main_welcome p {
+	color: #999999;
+	font-size: 20px;
+}
+
+.main_welcome h1 {
+	color: #999999;
+	font-size: 44px;
+}
+.cuba {
+	color: #fcac45;
+}
+.main_team {
+	background: #000;
+	text-align: center;
+	color: #fff;
+}
+
+.main_team h1 {
+	font-size: 44px
+	padding-bottom: 30px;
+}
+
+.team_cards {
+	display: flex;
+}
+
+.name {
+	font-size: 20px;
+	margin-bottom: 7px;
+}
+
+.position {
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+.about_position {
+	font-size: 14px;
+}
+.white{
+	background: #fff;
+	width: 100%;
+	height: 200px;
+}
+.mincard{
+	max-width: 85%;
+	height: auto;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+
+}
+.aborder{
+	border: 0px;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.margincard{
+	margin-bottom: 1rem;
+}
+
+.mainw {
+	margin-top: 5rem;
+	background: black;
+	text-align: center;
+	padding-top: 15rem;
+	padding-left: 5rem;
+	padding-right: 5rem;
+	margin-bottom: 5rem;
+	padding-bottom: 12rem;
+}
+.db{
+	display: block;
+}
+.wp{
+	background-color: green;
+	color: white;
+}
+.maxi{
+	font-size: 35px;
+}
+.whatsup{
+	color: white;
+	outline: none;
+	text-underline-position: none;
+}
+.whatsup:hover{
+	color: white;
+	outline: none;
+	text-underline-position: none;
+	text-decoration-line: none;
+}
+/* .colorgrey{
+	background-color: gray;
+	text-decoration:none;
+	color:black;
+}
+ */
+
+ .img_video {
+    cursor: pointer;
+    cursor: hand; /* Для старых браузеров */
+}
+#modal_form {
+    width: 700px; 
+    height: 550px; /* Рaзмеры дoлжны быть фиксирoвaны */
+    position: fixed; /* чтoбы oкнo былo в видимoй зoне в любoм месте */
+    top: 45%; /* oтступaем сверху 45%, oстaльные 5% пoдвинет скрипт */
+    left: 50%; /* пoлoвинa экрaнa слевa */
+    margin-top: -275px;
+    margin-left: -350px; /* тут вся мaгия центрoвки css, oтступaем влевo и вверх минус пoлoвину ширины и высoты сooтветственнo =) */
+    display: none; /* в oбычнoм сoстoянии oкнa не дoлжнo быть */
+    opacity: 0; /* пoлнoстью прoзрaчнo для aнимирoвaния */
+    z-index: 9999; /* oкнo дoлжнo быть нaибoлее бoльшем слoе */
+    padding: 20px 10px;
+}
+ 
+/* Пoдлoжкa */
+#overlay {
+    z-index:9998; /* пoдлoжкa дoлжнa быть выше слoев элементoв сaйтa, нo ниже слoя мoдaльнoгo oкнa */
+    position:fixed; /* всегдa перекрывaет весь сaйт */
+    background-color:#000; /* чернaя */
+    opacity:0.98; /* нo немнoгo прoзрaчнa */
+    -moz-opacity:0.98; /* фикс прозрачности для старых браузеров */
+    filter:alpha(opacity=80);
+    width:100%; 
+    height:100%; /* рaзмерoм вo весь экрaн */
+    top:0; /* сверху и слевa 0, oбязaтельные свoйствa! */
+    left:0;
+    cursor:pointer;
+    display:none; /* в oбычнoм сoстoянии её нет) */
+}
+ 
+/* Кнoпкa зaкрыть для тех ктo в тaнке) */
+.modal_close {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: block;
+    color:white;
+}
+.linel{
+	border-left: 10px solid white;
+	margin-left: 5rem;
+	text-align:left;
+}
+ li {
+    list-style-type: none; /* Убираем маркеры */
+    color: grey;
+   }
+
+ .finish{
+ 	margin-top: 3rem;
+ 	padding-top: 1rem;
+ 	padding-bottom: 1rem;
+ 	background-color: black;
+ 	text-align: center;
+ 	color: white;
+ }
+  
+
+
+
+
+// Экстрамалые девайсы («портретные телефоны», < 576px)
+@media (max-width: 575.98px) { ... }
+
+// Малые девайсы («ландшафтные», >= 575px)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+// Средние девайсы («таблетки», >= 768px) 
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Большие девайсы (большие десктопы, >= 992px)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Большие девайсы (большие десктопы, >= 1200px)
+@media (min-width: 1200px) { ... }
