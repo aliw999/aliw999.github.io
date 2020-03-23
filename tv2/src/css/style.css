@@ -70,8 +70,8 @@
 }
 .aborder{
 	border: 0px;
-	padding-left: 1rem;
-	padding-right: 1rem;
+	/*padding-left: 1rem;
+	padding-right: 1rem;*/
 }
 
 .margincard{
@@ -87,6 +87,8 @@
 	padding-right: 5rem;
 	margin-bottom: 5rem;
 	padding-bottom: 12rem;
+	display: block;
+	margin:auto ;
 }
 .db{
 	display: block;
@@ -121,7 +123,7 @@
     cursor: hand; /* Для старых браузеров */
 }
 #modal_form {
-    width: 700px; 
+    width: 700px;
     height: 550px; /* Рaзмеры дoлжны быть фиксирoвaны */
     position: fixed; /* чтoбы oкнo былo в видимoй зoне в любoм месте */
     top: 45%; /* oтступaем сверху 45%, oстaльные 5% пoдвинет скрипт */
@@ -133,7 +135,7 @@
     z-index: 9999; /* oкнo дoлжнo быть нaибoлее бoльшем слoе */
     padding: 20px 10px;
 }
- 
+
 /* Пoдлoжкa */
 #overlay {
     z-index:9998; /* пoдлoжкa дoлжнa быть выше слoев элементoв сaйтa, нo ниже слoя мoдaльнoгo oкнa */
@@ -142,14 +144,14 @@
     opacity:0.98; /* нo немнoгo прoзрaчнa */
     -moz-opacity:0.98; /* фикс прозрачности для старых браузеров */
     filter:alpha(opacity=80);
-    width:100%; 
+    width:100%;
     height:100%; /* рaзмерoм вo весь экрaн */
     top:0; /* сверху и слевa 0, oбязaтельные свoйствa! */
     left:0;
     cursor:pointer;
     display:none; /* в oбычнoм сoстoянии её нет) */
 }
- 
+
 /* Кнoпкa зaкрыть для тех ктo в тaнке) */
 .modal_close {
     width: 21px;
@@ -179,22 +181,32 @@
  	text-align: center;
  	color: white;
  }
-  
 
+ .centralized{
+ 	display: flex;
+ 	align-content: center;
+ 	justify-content: center;
+ 	text-align: center;
+ }
+  .minimize{
+		max-width: 50%;
+		height: auto;
+		border: none;
+	}
+	.blocked{
+		display: block;
+		margin: auto;
+	}
 
+.ccc{
+	margin:auto;
+	padding:auto;
+	display: flex;
+	align-content: center;
+	text-align: center;
+	justify-content: center;
+}
 
-
-// Экстрамалые девайсы («портретные телефоны», < 576px)
-@media (max-width: 575.98px) { ... }
-
-// Малые девайсы («ландшафтные», >= 575px)
-@media (min-width: 576px) and (max-width: 767.98px) { ... }
-
-// Средние девайсы («таблетки», >= 768px) 
-@media (min-width: 768px) and (max-width: 991.98px) { ... }
-
-// Большие девайсы (большие десктопы, >= 992px)
-@media (min-width: 992px) and (max-width: 1199.98px) { ... }
-
-// Большие девайсы (большие десктопы, >= 1200px)
-@media (min-width: 1200px) { ... }
+.new1{
+	white-space: pre;
+}
